@@ -68,6 +68,9 @@ public slots:
     void quitApp();
     void checkForCkbUpdates();
 
+signals:
+    void switchToProfileCLI(QString profile);
+    void switchToModeCLI(QString mode);
 
 private slots:
     void addDevice(Kb* device);
